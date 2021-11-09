@@ -27,7 +27,7 @@ var _0x261268=_0x38da;function _0x38da(_0x54af4a,_0x3eb63f){var _0x5f1431=_0x5f1
 let a = '```'
 global.pict = 'https://telegra.ph/file/7a500b34519811d5c55dc.jpg'
 global.name = 'MyWA'
-global.footer = _0x5cbd8b
+global.footer = foot
 global.sw = ["6285157489446", "62895604187905", " 6287676716773"]
 global.dev = dev
 global.desc = _0x261268
