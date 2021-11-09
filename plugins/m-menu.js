@@ -5,15 +5,14 @@ let path = require('path')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
 const defaultMenu = {
-  before: `
-┌─〔 %me 〕
-├ Hai, %name!
-│
-├ Tersisa *%limit Limit*
-├ Role *%role*
-├ Level *%level (%exp / %maxexp)* [%xp4levelup]
-├ %totalexp XP secara Total
-│ 
+  before: `┏━━⬣
+┃❏ Hai : %name
+┃❏ Limit : %limit limit
+┃❏ Role : %role
+┃❏ Level : %level
+┃❏ XP : %totalexp
+┗━━⬣
+
 ├ Tanggal: *%week %weton, %date*
 ├ Tanggal Islam: *%dateIslamic*
 ├ Waktu: *%time*
