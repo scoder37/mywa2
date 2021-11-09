@@ -3,10 +3,11 @@
 </p>
 <h1 align="center">MyWA Bot</h1>
 <h3 align="center">[FREE VERSION]</h3>
+<h5 align="center">JOIN GRUP WHATSAPP DIBAWAH UNTUK SHARING & DISKUSI</h3>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/scoder37/zroot)
 
-[![Grup Diskusi](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Bu5BtQ9kcnIKNGaVR60u9W)
+[![Grup WhatsApp](https://img.shields.io/badge/WhatsApp%20Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/GyF5zdb2aK15pAexpvHhNC)
 
 ## INSTALASI
 
