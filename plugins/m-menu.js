@@ -10,26 +10,22 @@ const defaultMenu = {
 ┃❏ Limit : %limit limit
 ┃❏ Role : %role
 ┃❏ Level : %level
-┃❏ XP : %totalexp
+┃❏ XP : %totalexp EXP
 ┗━━⬣
-
-├ Tanggal: *%week %weton, %date*
-├ Tanggal Islam: *%dateIslamic*
-├ Waktu: *%time*
-│
-├ Uptime: *%uptime (%muptime)*
-├ Database: %rtotalreg dari %totalreg
-├ Github:
-├ %github
-└────
+┏━━⬣
+┃❏ Tanggal: *%week %weton, %date*
+┃❏ Tanggal Islam: *%dateIslamic*
+┃❏ Waktu: *%time*
+┃❏ Uptime: *%uptime (%muptime)*
+┃❏ Database: %rtotalreg dari %totalreg
+┃❏ Github:
+┃❏ %github
+┗━━⬣
 %readmore`.trimStart(),
-  header: '┌─〔 %category 〕',
-  body: '├ %cmd %islimit %isPremium',
-  footer: '└────\n',
-  after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
-`,
+  header: '┏━━⬣ %category',
+  body: '┃❏ %cmd %islimit %isPremium',
+  footer: '┗━━⬣\n',
+  after: ``,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 let img = fs.readFileSync('tmp/logo.jpg')
