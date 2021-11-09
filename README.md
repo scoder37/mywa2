@@ -18,8 +18,8 @@
 * Register Amirul Dev Get Notification [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/scoder37/mywa-pub.git
-cd zroot
+git clone https://github.com/scoder37/mywa2.git
+cd mywa2
 npm i
 npm update
 edit api get notif (config.js)
