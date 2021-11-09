@@ -19,7 +19,10 @@ New update
 - Fake Reply Toko
 - Fake Reply Status
 - Fake Reply Contact
-- Fake Reply Button`, global.footer, 'BACK MENU', '#menu', m)
+- Fake Reply Button
+
+Link Script:
+https://github.com/scoder37/mywa2`, global.footer, 'BACK MENU', '#menu', m)
 
 }
 
