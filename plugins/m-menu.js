@@ -13,13 +13,13 @@ const defaultMenu = {
 ┃❏ XP : %totalexp EXP
 ┗━━⬣
 ┏━━⬣
-┃❏ Tanggal: *%week %weton, %date*
-┃❏ Tanggal Islam: *%dateIslamic*
+┃❏ Tanggal: 
+┃*%week %weton, %date*
+┃❏ Tanggal Islam: 
+┃*%dateIslamic*
 ┃❏ Waktu: *%time*
 ┃❏ Uptime: *%uptime (%muptime)*
 ┃❏ Database: %rtotalreg dari %totalreg
-┃❏ Github:
-┃❏ %github
 ┗━━⬣
 %readmore`.trimStart(),
   header: '┏━━⬣ %category',
