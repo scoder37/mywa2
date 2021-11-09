@@ -192,112 +192,110 @@ let img = fs.readFileSync('tmp/logo.jpg')
           "title": `Halo, ${name} 👋\n${ucapan()}`.trim(),
           "description": "semoga harimu menyenangkan 😊",
           "footerText": global.footer,
-          "buttonText": "LIST MENU',
+          "buttonText": "LIST MENU",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
               "rows": [
                 {
-                  "title": `Semua Perintah`,
+                  "title": `• Semua Command`,
                   "description": "",
                   "rowId": `${_p}? all`
                 }, {
-                  "title": "Game",
+                  "title": "• Game Menu",
                   "description": "",
                   "rowId": `${_p}? game`
 
                 }, {
-                  "title": "XP",
+                  "title": "• XP Menu",
                   "description": "",
                   "rowId": `${_p}? xp`
 
                 }, {
-                  "title": "Stiker",
+                  "title": "• Stiker Menu",
                   "description": "",
                   "rowId": `${_p}? stiker`
                 }, {
-                  "title": "Kerang Ajaib",
+                  "title": "• Kerang Ajaib",
                   "description": "",
                   "rowId": `${_p}? kerangajaib`
                 }, {
-                  "title": "Quotes",
+                  "title": "• Quotes Menu",
                   "description": "",
                   "rowId": `${_p}? quotes`
                 }, {
-                  "title": "Admin",
+                  "title": "• Admin Menu",
                   "description": "",
                   "rowId": `${_p}? admin`
                 }, {
-                  "title": "Grup",
+                  "title": "• Grup Menu",
                   "description": "",
                   "rowId": `${_p}? grup`
                 }, {
-                  "title": "Premium",
+                  "title": "• Premium Menu",
                   "description": "",
                   "rowId": `${_p}? premium`
                 }, {
-                  "title": "Internet",
+                  "title": "• Internet Menu",
                   "description": "",
                   "rowId": `${_p}? internet`
                 }, {
-                  "title": "Anonymous",
+                  "title": "• Anonymous Chat",
                   "description": "",
                   "rowId": `${_p}? anonymous`
                 }, {
-                  "title": "Nulis & Logo",
+                  "title": "• Nulis & Logo",
                   "description": "",
                   "rowId": `${_p}? nulis`
                 }, {
-                  "title": "Downloader",
+                  "title": "• Downloader",
                   "description": "",
                   "rowId": `${_p}? downloader`
                 }, {
-                  "title": "Tools",
+                  "title": "• Tools Menu",
                   "description": "",
                   "rowId": `${_p}? tools`
                 }, {
-                  "title": "Fun",
+                  "title": "• Fun Menu",
                   "description": "",
                   "rowId": `${_p}? fun`
                 }, {
-                  "title": "Database",
+                  "title": "• Database Menu",
                   "description": "",
                   "rowId": `${_p}? database`
                 }, {
-                  "title": "Vote & Absen",
+                  "title": "• Vote & Absen",
                   "description": "",
                   "rowId": `${_p}? vote`
                 }, {
-                  "title": "Al-Qur\'an",
+                  "title": "• Al-Qur\'an",
                   "description": "",
                   "rowId": `${_p}? quran`
                 }, {
-                  "title": "Pengubah Suara",
+                  "title": "• Pengubah Suara",
                   "description": "",
                   "rowId": `${_p}? audio`
                 }, {
-                  "title": "Jadi Bot",
+                  "title": "• Jadi Bot",
                   "description": "",
                   "rowId": `${_p}? jadibot`
                 }, {
-                  "title": "Info",
+                  "title": "• Info Menu",
                   "description": "",
                   "rowId": `${_p}? info`
                 }, {
-                  "title": "Tanpa Kategori",
+                  "title": "• Tanpa Kategori",
                   "description": "",
                   "rowId": `${_p}? tanpakategori`
                 }, {
-                  "title": "Owner",
+                  "title": "• Owner Menu",
                   "description": "",
                   "rowId": `${_p}? owner`
                 }
               ]
             }
           ], "contextInfo": {
-            "stanzaId": m.key.id,
-            "participant": m.sender,
-            "quotedMessage": m.message
+"mentionedJid": [`6285157489446@s.whatsapp.net`]
           }
         }
       }, {}), { waitForAck: true })
