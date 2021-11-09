@@ -24,5 +24,4 @@ m.reply(serr)
 handler.customPrefix = /^[$] /
 handler.command = new RegExp
 handler.rowner = true
-handler.register = true
 module.exports = handler
