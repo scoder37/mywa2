@@ -1,0 +1,23 @@
+┌━━━━━━━━━━━━━━━━━┈ ⳹
+│            *MyWA Bot 2021* 
+┕┬───────────────┈ ⳹
+┌┤Nama : %name
+││Tier: %role
+││Limit : %limit Limit
+││Level : %level (%exp / %maxexp)
+││EXP : %totalexp
+│┕────────────┈ ⳹
+│DATABASE USER
+│• Pengguna aktif:  21%rtotalreg orang
+│• Pengguna Pasif: %totalreg orang
+┕─────────────────┈ ⳹
+INFORMASI:
+Jangan spam jika bot delay
+menu button tidak bekerja
+pada pesan sementara maupun
+whatsapp mod
+ 
+🔥: Fitur untuk member premium
+♨️: Fitur memakai limit
+
+ada bug / eror? lapor owner
