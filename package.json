@@ -1,7 +1,7 @@
 {
   "name": "mywa",
-  "version": "1.0.5",
-  "description": "Multiple Bot Whatsapp Auto - SUPPORT MULTI DEVICE",
+  "version": "1.0.1",
+  "description": "Multiple Bot Whatsapp All In One",
   "main": "index.js",
   "directories": {
     "lib": "lib",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/scoder37/mywa.git"
+    "url": "git+https://github.com/scoder37/mywa2.git"
   },
   "keywords": [
     "whatsapp-bot"
@@ -22,9 +22,9 @@
   "author": "scoder37",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/scoder37/mywa/issues"
+    "url": "https://github.com/scoder37/mywa2/issues"
   },
-  "homepage": "https://github.com/scoder37/mywa",
+  "homepage": "https://github.com/scoder37/mywa2",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "awesome-phonenumber": "^2.64.0",
