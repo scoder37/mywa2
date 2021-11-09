@@ -379,7 +379,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
 let img = fs.readFileSync('tmp/logo.jpg')
-var _0x5384d4=_0x4886;function _0x3694(){var _0x3e0431=['trim','owner','3885492JUuCAN','SCRIPT','OWNER','814092eelPKz','192YVXWPJ','1943960SBdrLW','10ohqsHy','2aTiMGr','8482491QIWqMA','29606412jSIcet','footer','10tPlPsP','chat','105658rttEmj','1158027FahChu'];_0x3694=function(){return _0x3e0431;};return _0x3694();}function _0x4886(_0x47366b,_0x26ea55){var _0x369490=_0x3694();return _0x4886=function(_0x488629,_0x74633d){_0x488629=_0x488629-0x9d;var _0x4fde84=_0x369490[_0x488629];return _0x4fde84;},_0x4886(_0x47366b,_0x26ea55);}(function(_0x5d4291,_0x328699){var _0xa061a=_0x4886,_0x3b2004=_0x5d4291();while(!![]){try{var _0x4512cf=-parseInt(_0xa061a(0xa1))/0x1+-parseInt(_0xa061a(0xab))/0x2*(-parseInt(_0xa061a(0xa4))/0x3)+parseInt(_0xa061a(0xa7))/0x4*(-parseInt(_0xa061a(0x9e))/0x5)+-parseInt(_0xa061a(0xa8))/0x6*(parseInt(_0xa061a(0xa0))/0x7)+-parseInt(_0xa061a(0xa9))/0x8+parseInt(_0xa061a(0xac))/0x9*(-parseInt(_0xa061a(0xaa))/0xa)+parseInt(_0xa061a(0xad))/0xb;if(_0x4512cf===_0x328699)break;else _0x3b2004['push'](_0x3b2004['shift']());}catch(_0xb358ab){_0x3b2004['push'](_0x3b2004['shift']());}}}(_0x3694,0xb7db9),conn['send2Loc'](m[_0x5384d4(0x9f)],img,text[_0x5384d4(0xa2)](),global[_0x5384d4(0x9d)],_0x5384d4(0xa6),_p+_0x5384d4(0xa3),_0x5384d4(0xa5),_p+'sc',m));
+await conn.send2Loc(m.chat, img, text.trim(), global.footer, 'OWNER', `${_p}owner`, 'SCRIPT', `${_p}sc`, m)
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
