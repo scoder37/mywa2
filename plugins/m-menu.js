@@ -379,7 +379,7 @@ let img = fs.readFileSync('tmp/logo.jpg')
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
 
-await conn.send2Loc(m.chat, img, text.trim(), global.footer, 'OWNER', `${_p}owner`, 'SCRIPT', `${_p}sc`, m)
+var _0x16a5dc=_0x4a56;function _0x4a56(_0x185e08,_0xe52a4a){var _0x121ebb=_0x121e();return _0x4a56=function(_0x4a560a,_0x42724c){_0x4a560a=_0x4a560a-0x151;var _0x54cac2=_0x121ebb[_0x4a560a];return _0x54cac2;},_0x4a56(_0x185e08,_0xe52a4a);}(function(_0xc881c6,_0x197207){var _0x3853a8=_0x4a56,_0x16056c=_0xc881c6();while(!![]){try{var _0x5638b6=-parseInt(_0x3853a8(0x155))/0x1+parseInt(_0x3853a8(0x153))/0x2*(parseInt(_0x3853a8(0x157))/0x3)+parseInt(_0x3853a8(0x158))/0x4+-parseInt(_0x3853a8(0x15d))/0x5*(-parseInt(_0x3853a8(0x15c))/0x6)+parseInt(_0x3853a8(0x15a))/0x7*(parseInt(_0x3853a8(0x15e))/0x8)+-parseInt(_0x3853a8(0x152))/0x9+parseInt(_0x3853a8(0x154))/0xa;if(_0x5638b6===_0x197207)break;else _0x16056c['push'](_0x16056c['shift']());}catch(_0xe92546){_0x16056c['push'](_0x16056c['shift']());}}}(_0x121e,0x873ba),await conn[_0x16a5dc(0x151)](m[_0x16a5dc(0x156)],img,text['trim'](),global['footer'],_0x16a5dc(0x159),_p+'owner',_0x16a5dc(0x15b),_p+'sc',m));function _0x121e(){var _0x1e32fe=['OWNER','1432193Ltvinj','SCRIPT','2236998zOLaaC','10tcLgWg','8YeRzYY','send2Loc','9790686PwvyCc','10UrYYqe','6004270TOQXBc','465654iYcjsQ','chat','267321DbvsEw','444780qcnXLr'];_0x121e=function(){return _0x1e32fe;};return _0x121e();}
   } catch (e) {
     conn.reply(m.chat, 'Maaf, menu sedang error', m)
     throw e
