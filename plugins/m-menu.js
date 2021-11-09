@@ -14,9 +14,9 @@ const defaultMenu = {
 ┗━━⬣
 ┏━━⬣
 ┃❏ Tanggal: 
-┃*%week %weton, %date*
+┃%week, %date
 ┃❏ Tanggal Islam: 
-┃*%dateIslamic*
+┃%dateIslamic
 ┃❏ Waktu: *%time*
 ┃❏ Uptime: *%uptime (%muptime)*
 ┃❏ Database: %rtotalreg dari %totalreg
