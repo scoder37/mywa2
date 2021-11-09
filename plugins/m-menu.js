@@ -189,9 +189,10 @@ let img = fs.readFileSync('tmp/logo.jpg')
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `${ucapan()}, ${name}`.trim(),
-          "description": "© stikerin",
-          "buttonText": "Klik Disini",
+          "title": `Halo, ${name} 👋
+${ucapan()}`.trim(),
+          "description": "semoga harimu menyenangkan 😊",
+          "buttonText": "LIST MENU",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
