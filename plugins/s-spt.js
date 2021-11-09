@@ -6,8 +6,6 @@ let img = fs.readFileSync('tmp/logo.jpg')
 conn.sendLoc(m.chat, img, `*[+] SOURCE CODE [+]*
 Base Default: wabot-aq
 
-All Menu: No Api
-
 Script ini dibuat dari pengodean ulang wabot-aq. dikode ulang mulai dari 0, 1/1 file di buat dan dipercanggih lagi dan dibuild menggunakan satu api (punya saya)
 
 New update
