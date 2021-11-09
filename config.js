@@ -27,10 +27,10 @@ var _0x261268=_0x38da;function _0x38da(_0x54af4a,_0x3eb63f){var _0x5f1431=_0x5f1
 let a = '```'
 global.pict = 'https://telegra.ph/file/7a500b34519811d5c55dc.jpg'
 global.name = 'MyWA'
-global.footer = foot
+global.footer = _0x5cbd8b
 global.sw = ["6285157489446", "62895604187905", " 6287676716773"]
 global.dev = dev
-global.desc = _0x261268
+global.desc = desc
 global.browser = 'Firefox'
 global.version = '1.0.6'
 global.capt = ['Halo, terimakasih telah menggunakan bot ini, jangan lupa dukung bot ini dengan cara donasi yah', 'Terimakasih telah menggunakan bot ini, dimohon mematuhi semua rules dan tidak spam ke bot, happy boters guys 😊', 'Hai 👋/nthanks uda menggunakan bot ini, apabila ada fitur yang eror atau bug, silahkan lapor ke owner langsung yah', 'Hai kak 👋\nHave a nice day. gunakan bot sewajarnya aja yah.. jangan spam dan jangan diperjual belikan, bot ini gratis tidak ada unsur sewa²an kecuali fitur fitur tertentu!!']
