@@ -414,38 +414,13 @@ let hwel = await (await fetch(neww)).buffer()
 let newl = `https://hardianto-chan.herokuapp.com/api/goodbye3?profile=${pp}&name=${this.getName(user)}&bg=${ibg}&namegb=${this.getName(jid)}&member=${groupMetadata.participants.length}`
 let hle = await (await fetch(newl)).buffer()
 
-console.log(`1 ${hle}`)
-// PROSES EKSEKUSI WELLCOME
-await jimp.read(hwel)
-.then(lenna => {
-return lenna
-.resize(275, 150) // resize
-.quality(100) // set JPEG quality
-// .greyscale() // set greyscale
-.write(`tmp/welj.jpeg`) // save
-})
-
-// PROSES EKSEKUSI LEAVE
-await jimp.read(hle)
-.then(lenna => {
-return lenna
-.resize(282, 150) // resize
-.quality(100) // set JPEG quality
-// .greyscale() // set greyscale
-.write(`tmp/leaj.jpeg`) // save
-})
-
 // SEND 
-setTimeout(async () => {
-let h1 = fs.readFileSync('tmp/welj.jpeg')
-let h2 = fs.readFileSync('tmp/leaj.jpeg')
-
-conn.sendLoc(jid, action === 'add' ? h1 : h2, text, global.footer, 'LIST MENU', '#menu', false, {
+conn.sendBtnImg(jid, action === 'add' ? hwel : hle, text, global.footer, 'LIST MENU', '#menu', false, {
                 contextInfo: {
                   mentionedJid: [user]
                 }
               })
-}, 1000)
+
             }
           }
         }
@@ -491,8 +466,7 @@ ketik *.on delete* untuk mematikan pesan ini
         break
     }
     user.call += 1
-let img = gs(global.logo)
-let banc = fs.readFileSync(`tmp/${img}.jpg`)
+let banc = fs.readFileSync(`tmp/logo.jpg`)
 let a = '```'
 let jng = this.getName(from)
 
@@ -529,18 +503,13 @@ ${user.call}/3${a}`, global.footer, 'LIST MENU', '#menu', 'RULES', '#rules', nul
 // SWITCH BAHASA
 global.dfail = (type, m, conn) => {
 let usr = db.data.users[m.sender]
-
-let iban = gs(global.logo)
-let banm = fs.readFileSync(`tmp/${iban}.jpg`)
   let msg = {
     rowner: `*ACCESS DENIED*
 
-Perintah ini hanya untuk developer bot
-Dev Bot @6285157489446`,
+Perintah ini hanya untuk developer bot`,
     owner: `*ACCESS DENIED*
 
-Perintah ini hanya untuk owner bot
-Owner Bot: @6285157489446`,
+Perintah ini hanya untuk owner bot`,
     mods: `*ACCESS DENIED*
 
 Perintah ini hanya untuk moderator bot`,
@@ -568,9 +537,9 @@ Contoh:
 #daftar Amirul Dev.20.Madiun`,
     nsfw: 'NSFW tidak aktif'
   }[type]
-  if (msg) return conn.send2Loc(m.chat, banm, msg, global.footer, 'MENU', '#menu', 'OWNER', '#owner', null, {
+  if (msg) return conn.send2Btn(m.chat, msg, global.footer, 'MENU', '#menu', 'OWNER', '#owner', null, {
 contextInfo: {
-mentionedJid: ['6285157489446@s.whatsapp.net']
+mentionedJid: [m.sender]
 }})
 }
 
