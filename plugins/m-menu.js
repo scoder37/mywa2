@@ -31,32 +31,29 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 let img = fs.readFileSync('tmp/logo.jpg')
   let tags
   let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'game', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'tanpakategori', 'owner']
+  let arrayMenu = ['all', 'main', 'game', 'xp', 'stiker', 'kerangajaib', 'quotes', 'admin', 'grup', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database', 'quran', 'audio', 'jadibot', 'info', 'tanpakategori', 'owner']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
-    'main': 'Utama',
-    'game': 'Game',
-    'xp': 'Exp & Limit',
-    'sticker': 'Stiker',
-    'kerang': 'Kerang Ajaib',
-    'quotes': 'Quotes',
-    'admin': `Admin ${global.opts['restrict'] ? '' : '(Dinonaktifkan)'}`,
-    'group': 'Grup',
-    'premium': 'Premium',
-    'internet': 'Internet',
-    'anonymous': 'Anonymous Chat',
-    'nulis': 'MagerNulis & Logo',
-    'downloader': 'Downloader',
-    'tools': 'Tools',
-    'fun': 'Fun',
-    'database': 'Database',
-    'vote': 'Voting',
-    'absen': 'Absen',
+    'main': 'MENU UTAMA',
+    'game': 'MENU GAME',
+    'xp': 'EXP & LIMIT',
+    'sticker': 'MENU STIKER',
+    'kerang': 'KERANG AJAIB',
+    'quotes': 'MENU QUOTES',   
+    'group': 'MENU GRUP',
+    'premium': 'MENU PREMIUM',
+    'internet': 'MNU INTERNET',
+    'anonymous': 'ANONYMOUS CHAT',
+    'nulis': 'NULIS & LOGO',
+    'downloader': 'MENU DOWNLOADER',
+    'tools': 'MENU TOOLS',
+    'fun': 'FUN MENU',
+    'database': 'DATABASE',
+    'vote': 'MENU VOTING',
+    'absen': 'MENU ABSEN',
     'quran': 'Al Qur\'an',
-    'audio': 'Pengubah Suara',
-    'jadibot': 'Jadi Bot',
-    'info': 'Info',
-    '': 'Tanpa Kategori',
+    'audio': 'PENGUBAH SUARA',
+    'jadibot': 'JADI BOT',
   }
   if (teks == 'game') tags = {
     'game': 'Game'
@@ -194,99 +191,23 @@ function _0x4a30(_0x5b7591,_0x49340d){var _0x407361=_0x4073();return _0x4a30=fun
             {
               "rows": [
                 {
-                  "title": `• Semua Command`,
+                  "title": `◈ SEMUA MENU`,
                   "description": "",
                   "rowId": `${_p}? all`
                 }, {
-                  "title": "• Game Menu",
+                  "title": "◈ MENU UTAMA",
                   "description": "",
-                  "rowId": `${_p}? game`
+                  "rowId": `${_p}? main`
 
                 }, {
-                  "title": "• XP Menu",
+                  "title": "◈ MENU EXP",
                   "description": "",
                   "rowId": `${_p}? xp`
 
                 }, {
-                  "title": "• Stiker Menu",
+                  "title": "◈ MENU STIKER",
                   "description": "",
-                  "rowId": `${_p}? stiker`
-                }, {
-                  "title": "• Kerang Ajaib",
-                  "description": "",
-                  "rowId": `${_p}? kerangajaib`
-                }, {
-                  "title": "• Quotes Menu",
-                  "description": "",
-                  "rowId": `${_p}? quotes`
-                }, {
-                  "title": "• Admin Menu",
-                  "description": "",
-                  "rowId": `${_p}? admin`
-                }, {
-                  "title": "• Grup Menu",
-                  "description": "",
-                  "rowId": `${_p}? grup`
-                }, {
-                  "title": "• Premium Menu",
-                  "description": "",
-                  "rowId": `${_p}? premium`
-                }, {
-                  "title": "• Internet Menu",
-                  "description": "",
-                  "rowId": `${_p}? internet`
-                }, {
-                  "title": "• Anonymous Chat",
-                  "description": "",
-                  "rowId": `${_p}? anonymous`
-                }, {
-                  "title": "• Nulis & Logo",
-                  "description": "",
-                  "rowId": `${_p}? nulis`
-                }, {
-                  "title": "• Downloader",
-                  "description": "",
-                  "rowId": `${_p}? downloader`
-                }, {
-                  "title": "• Tools Menu",
-                  "description": "",
-                  "rowId": `${_p}? tools`
-                }, {
-                  "title": "• Fun Menu",
-                  "description": "",
-                  "rowId": `${_p}? fun`
-                }, {
-                  "title": "• Database Menu",
-                  "description": "",
-                  "rowId": `${_p}? database`
-                }, {
-                  "title": "• Vote & Absen",
-                  "description": "",
-                  "rowId": `${_p}? vote`
-                }, {
-                  "title": "• Al-Qur\'an",
-                  "description": "",
-                  "rowId": `${_p}? quran`
-                }, {
-                  "title": "• Pengubah Suara",
-                  "description": "",
-                  "rowId": `${_p}? audio`
-                }, {
-                  "title": "• Jadi Bot",
-                  "description": "",
-                  "rowId": `${_p}? jadibot`
-                }, {
-                  "title": "• Info Menu",
-                  "description": "",
-                  "rowId": `${_p}? info`
-                }, {
-                  "title": "• Tanpa Kategori",
-                  "description": "",
-                  "rowId": `${_p}? tanpakategori`
-                }, {
-                  "title": "• Owner Menu",
-                  "description": "",
-                  "rowId": `${_p}? owner`
+                  "rowId": `${_p}? stiker`               
                 }
               ]
             }
