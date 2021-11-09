@@ -187,10 +187,11 @@ let img = fs.readFileSync('tmp/logo.jpg')
       }
     })
     if (teks == '404') {
+function _0x4a30(_0x5b7591,_0x49340d){var _0x407361=_0x4073();return _0x4a30=function(_0x4a30a0,_0x5a568a){_0x4a30a0=_0x4a30a0-0x9e;var _0x4122c9=_0x407361[_0x4a30a0];return _0x4122c9;},_0x4a30(_0x5b7591,_0x49340d);}function _0x4073(){var _0x22e3d1=['2803047CKAmNs','6028650evrBDa','1432686BCWHgg','20NkpOBH','14680fPwLkx','4752660bhDqtU','975437wKWtEZ','2058096giFWJu','10BmTgAj','2989XHDUAf','2hmaqwp'];_0x4073=function(){return _0x22e3d1;};return _0x4073();}(function(_0x4ed745,_0x488169){var _0x52ec52=_0x4a30,_0x6a9455=_0x4ed745();while(!![]){try{var _0x509cf7=-parseInt(_0x52ec52(0x9f))/0x1*(-parseInt(_0x52ec52(0xa3))/0x2)+-parseInt(_0x52ec52(0xa4))/0x3+parseInt(_0x52ec52(0xa0))/0x4+parseInt(_0x52ec52(0xa7))/0x5*(parseInt(_0x52ec52(0xa6))/0x6)+-parseInt(_0x52ec52(0xa2))/0x7*(parseInt(_0x52ec52(0xa8))/0x8)+-parseInt(_0x52ec52(0xa5))/0x9*(parseInt(_0x52ec52(0xa1))/0xa)+parseInt(_0x52ec52(0x9e))/0xb;if(_0x509cf7===_0x488169)break;else _0x6a9455['push'](_0x6a9455['shift']());}catch(_0x36a88d){_0x6a9455['push'](_0x6a9455['shift']());}}}(_0x4073,0x777b9));var capt='Semoga\x20harimu\x20menyenangkan\x20😊\x0aPowered:\x20@6285157489446';
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `Halo, ${name} 👋\n${ucapan()}`.trim(),
-          "description": "semoga harimu menyenangkan 😊",
+          "description": capt,
           "footerText": global.footer,
           "buttonText": "LIST MENU",
           "listType": "SINGLE_SELECT",
