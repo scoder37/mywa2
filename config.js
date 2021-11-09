@@ -23,7 +23,7 @@ var _0x261268=_0x38da;function _0x38da(_0x54af4a,_0x3eb63f){var _0x5f1431=_0x5f1
 (function(_0x1340ea,_0x4e2b89){var _0x369f1d=_0x5b05,_0x29dc85=_0x1340ea();while(!![]){try{var _0x1589dd=parseInt(_0x369f1d(0x18e))/0x1+-parseInt(_0x369f1d(0x18a))/0x2+-parseInt(_0x369f1d(0x186))/0x3+parseInt(_0x369f1d(0x185))/0x4*(parseInt(_0x369f1d(0x18b))/0x5)+-parseInt(_0x369f1d(0x18c))/0x6+-parseInt(_0x369f1d(0x187))/0x7*(-parseInt(_0x369f1d(0x188))/0x8)+-parseInt(_0x369f1d(0x18d))/0x9*(parseInt(_0x369f1d(0x189))/0xa);if(_0x1589dd===_0x4e2b89)break;else _0x29dc85['push'](_0x29dc85['shift']());}catch(_0x265143){_0x29dc85['push'](_0x29dc85['shift']());}}}(_0xbc78,0x26525));function _0xbc78(){var _0x19b7fd=['105199cNBIih','4NxQOSf','118926ZRWNBd','1603VQASQB','9088rKdOvg','2918170itQESt','71574hukxjI','1472305NIfzRC','813558qNcoJP','9tzTPfn'];_0xbc78=function(){return _0x19b7fd;};return _0xbc78();}function _0x5b05(_0x4d12f3,_0x4fa5f4){var _0xbc78a1=_0xbc78();return _0x5b05=function(_0x5b0544,_0x3fce4c){_0x5b0544=_0x5b0544-0x185;var _0x3f7361=_0xbc78a1[_0x5b0544];return _0x3f7361;},_0x5b05(_0x4d12f3,_0x4fa5f4);}var wa='WA:\x20bit.ly/wbotp';
 
 
-//- Setting Bot
+//- SETTINGNYA DISINI
 let a = '```'
 global.pict = 'https://telegra.ph/file/7a500b34519811d5c55dc.jpg'
 global.name = 'MyWA'
@@ -55,34 +55,10 @@ global.mods = [] // Moderator
 
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Premium
 
-global.APIs = { // API Prefix
-  // nama: 'https://website'
-  bx: 'https://bx-hunter.herokuapp.com',
-  dhnjing: 'https://dhnjing.xyz',
-  hardianto: 'https://hardianto-chan.herokuapp.com',
-  jonaz: 'https://jonaz-api-v2.herokuapp.com',
-  neoxr: 'https://neoxr-api.herokuapp.com',
-  nrtm: 'https://nurutomo.herokuapp.com',
-  pencarikode: 'https://pencarikode.xyz',
-  xteam: 'https://api.xteam.xyz',
-  zahir: 'https://zahirr-web.herokuapp.com',
-  zekais: 'http://zekais-api.herokuapp.com',
-  zeks: 'https://api.zeks.xyz',
- my: 'https://hadi-api.herokuapp.com/api',
-dap: 'https://api.dapuhy.ga/api/',
+global.APIs = { // API Prefix
 am: 'https://amdev.herokuapp.com/api/',
 }
-global.APIKeys = { // APIKey nya disini
-  // 'https://website': 'apikey'
-  'https://bx-hunter.herokuapp.com': 'Ikyy69',
-  'https://hardianto-chan.herokuapp.com': 'hardianto',
-  'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://pencarikode.xyz': 'pais',
-  'https://api.xteam.xyz': 'apikeymu',
-  'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'apivinz',
- 'https://hadi-api.herokuapp.com/api': 'hadkey',
-'https://api.dapuhy.ga/api/': 'CzO67FnH95O3JS1',
+global.APIKeys = { // APIKey nya disini
 'https://amdev.herokuapp.com/api/': 'renz',
 }
 
