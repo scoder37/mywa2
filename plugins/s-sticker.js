@@ -76,7 +76,6 @@ await conn.sendMessage(m.chat, stiker, MessageType.sticker, {
 handler.help = ['stiker ', 'stiker *url*']
 handler.tags = ['sticker']
 handler.command = /^s(tic?ker)?(gif)?(wm)?$/i
-handler.register = true
 module.exports = handler
  
 const isUrl = (text) => {
