@@ -5,7 +5,7 @@ let path = require('path')
 const { ffmpeg } = require('./lib/converter')
 let simple = require('./lib/simple')
 const uploadImage = require('./lib/uploadImage')
-const knights = require('knights-canvas')
+
 let axios = require('axios')
 let { MessageType } = require('@adiwajshing/baileys')
 let jimp = require('jimp')
