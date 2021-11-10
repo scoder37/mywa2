@@ -18,7 +18,7 @@
 * Register Amirul Dev Get Notification [`Klik Disini`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/scoder37/mywa2.git
+git clone https://github.com/scoder37/mywa2
 cd mywa2
 npm i
 npm update
