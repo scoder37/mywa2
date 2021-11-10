@@ -3,6 +3,7 @@
 </p>
 <h1 align="center">MyWA Bot</h1>
 <h3 align="center">[FREE VERSION]</h3>
+<h6 align="center">bot ini belum 100% jadi, untuk info² atau lapor eror silahkan komen direpo ini atau join grup wa dibawah</h6>
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/scoder37/mywa2)
 
